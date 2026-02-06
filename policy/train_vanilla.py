@@ -11,7 +11,7 @@ from rl4co.envs import TSPEnv
 from rl4co.envs.routing import TSPEnv, TSPGenerator
 from rl4co.utils.trainer import RL4COTrainer
 
-from distributions import *
+from policy.distributions import *
 from policy.policy_hooked import HookedAttentionModelPolicy
 from policy.reinforce_clipped import REINFORCEClipped
 
