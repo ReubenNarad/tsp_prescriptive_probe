@@ -1,8 +1,18 @@
 # Prescriptive Probing of Neural TSP Representations
 
-![Main figure](main_fig.pdf)
+![Main figure](main_fig.png)
 
-Code for the paper on **prescriptive probing** of neural TSP solvers. We train an attention-based TSP policy, generate exact labels with Concorde, extract frozen encoder representations, and train probes for node-removal and edge-forbid tasks. This repo does **not** ship pretrained policy weights. Paper link: arXiv coming soon.
+Code for the paper on **prescriptive probing** of neural TSP solvers. We train an attention-based TSP policy, generate exact labels with Concorde about useful what-if sensitivity tasks (node removal and edge forbid), extract frozen encoder representations, and train probes for both tasks. Paper link:
+
+[ _arXiv link coming soon._ ]
+
+**What-if tasks: label visualization**
+
+**Node removal**
+![Node removal task](task_node_removal.png)
+
+**Edge forbid**
+![Edge forbid task](task_edge_forbid.png)
 
 **Steps to reproduce:**
 1. Install deps and Concorde: `pip install -r requirements.txt`, and install Concorde from https://www.math.uwaterloo.ca/tsp/concorde/downloads/downloads.htm (ensure `concorde` is on PATH).
