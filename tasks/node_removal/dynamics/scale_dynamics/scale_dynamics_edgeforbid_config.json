@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "label": "3.10M",
+      "metrics_csv": "runs/TSP100_uniform_expdecay_12-24_00:09:50/logs/version_0/metrics.csv",
+      "probe_summary": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_12-24_00:09:50__edgeforbid_1k_B/summary.csv",
+      "baseline_pkl": "runs/TSP100_uniform_expdecay_12-24_00:09:50/baseline.pkl"
+    },
+    {
+      "label": "0.44M",
+      "metrics_csv": "runs/TSP100_uniform_expdecay_small_01-13_12:07:48/logs/version_0/metrics.csv",
+      "probe_summary": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_small_01-13_12:07:48__edgeforbid_1k_B/summary.csv",
+      "baseline_pkl": "runs/TSP100_uniform_expdecay_small_01-13_12:07:48/baseline.pkl"
+    },
+    {
+      "label": "0.20M",
+      "metrics_csv": "runs/TSP100_uniform_expdecay_tiny_lrdecay_1-22/logs/version_0/metrics.csv",
+      "probe_summary": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_tiny_lrdecay_1-22__edgeforbid_1k_B/summary.csv",
+      "baseline_pkl": "runs/TSP100_uniform_expdecay_tiny_lrdecay_1-22/baseline.pkl"
+    }
+  ]
+}

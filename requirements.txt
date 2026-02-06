@@ -1,0 +1,9 @@
+torch
+rl4co
+torchrl
+numpy
+matplotlib
+tensordict
+imageio
+lightning
+pandas

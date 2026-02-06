@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+
+# PyTorch Lightning
+lightning_logs/
+.pytest_cache/
+
+# Project specific
+/runs/
+/concorde_temp/
+instance_*.pul
+instance_*.sav
+instance_*.res
+instance_*.mas
+instance_*.pix
+instance_*.sol
+Oinstance_*.pul
+Oinstance_*.sav
+Oinstance_*.res
+Oinstance_*.mas
+Oinstance_*.pix
+Oinstance_*.sol
+/data/osm_pools/
+/tasks/*/data/
+/tasks/*/tmp/
+/docs/archive/
+scripts/local_uniform/
+/scripts/tmp/
+
+# Bytecode (some experiment dirs are explicitly unignored above)
+__pycache__/
+*.pyc
+
+# Virtual environment
+/arxiv/
+/papers/
+
+# Allow images in the images directory for documentation
+!/images/feature_example1.png
+!/images/feature_example2.png
+
+.env
+.venv/
+wandb/
+bookmarks/
+
+# Local agent instructions (provided by harness; do not commit)
+AGENTS.md
+
+refactor_plan.md

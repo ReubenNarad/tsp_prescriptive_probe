@@ -1,0 +1,43 @@
+{
+  "runs": [
+    {
+      "label": "3.10M",
+      "metrics_csv": "runs/TSP100_uniform_expdecay_12-24_00:09:50/logs/version_0/metrics.csv",
+      "probe_summary_a": "tasks/node_removal/tmp/dynamics/TSP100_uniform_expdecay_12-24_00:09:50__TSP100_uniform_expdecay_12-24_00:09:50__sub1000_from_n3000/encoder_output/summary.csv",
+      "probe_summary_b": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_12-24_00:09:50__edgeforbid_1k_B/summary.csv",
+      "transformer_summary_a": "tasks/node_removal/tmp/dynamics/TSP100_uniform_expdecay_12-24_00:09:50__sub1000_from_n3000/encoder_output_transformer/summary.csv",
+      "transformer_summary_b": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_12-24_00:09:50__edgeforbid_1k_B/encoder_output_transformer/summary.csv",
+      "baseline_pkl": "runs/TSP100_uniform_expdecay_12-24_00:09:50/baseline.pkl",
+      "step_scale": 1.0,
+      "downsample_train": 1,
+      "downsample_probe": 1,
+      "downsample_transformer": 1
+    },
+    {
+      "label": "1.10M",
+      "metrics_csv": "runs/TSP100_uniform_expdecay_mid_01-24_11:08:29/logs/version_0/metrics.csv",
+      "probe_summary_a": "tasks/node_removal/tmp/dynamics/TSP100_uniform_expdecay_mid_01-24_11:08:29__sub1000_from_n3000/encoder_output/summary.csv",
+      "probe_summary_b": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_mid_01-24_11:08:29__edgeforbid_1k_B/summary.csv",
+      "transformer_summary_a": "tasks/node_removal/tmp/dynamics/TSP100_uniform_expdecay_mid_01-24_11:08:29__sub1000_from_n3000/encoder_output_transformer/summary.csv",
+      "transformer_summary_b": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_mid_01-24_11:08:29__edgeforbid_1k_B/encoder_output_transformer/summary.csv",
+      "baseline_pkl": "runs/TSP100_uniform_expdecay_mid_01-24_11:08:29/baseline.pkl",
+      "step_scale": 1.0,
+      "downsample_train": 1,
+      "downsample_probe": 1,
+      "downsample_transformer": 1
+    },
+    {
+      "label": "0.44M",
+      "metrics_csv": "runs/TSP100_uniform_expdecay_small_01-13_12:07:48/logs/version_0/metrics.csv",
+      "probe_summary_a": "tasks/node_removal/tmp/dynamics/TSP100_uniform_expdecay_small_01-13_12:07:48__sub1000_from_n3000/encoder_output/summary.csv",
+      "probe_summary_b": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_small_01-13_12:07:48__edgeforbid_1k_B/summary.csv",
+      "transformer_summary_a": "tasks/node_removal/tmp/dynamics/TSP100_uniform_expdecay_small_01-13_12:07:48__sub1000_from_n3000/encoder_output_transformer/summary.csv",
+      "transformer_summary_b": "tasks/edge_forbid/tmp/dynamics/TSP100_uniform_expdecay_small_01-13_12:07:48__edgeforbid_1k_B/encoder_output_transformer/summary.csv",
+      "baseline_pkl": "runs/TSP100_uniform_expdecay_small_01-13_12:07:48/baseline.pkl",
+      "step_scale": 1.0,
+      "downsample_train": 1,
+      "downsample_probe": 1,
+      "downsample_transformer": 1
+    }
+  ]
+}
